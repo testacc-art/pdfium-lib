@@ -2,10 +2,6 @@ name: Windows
 
 on:
   push:
-    paths-ignore:
-      - '**.md'
-      - 'docs/**'
-      - 'extras/images/**'
   workflow_dispatch:
 
 env:
